@@ -1,0 +1,24 @@
+body {
+	background-color: #f8fafc;
+	background-image:
+		linear-gradient(90deg, rgba(226, 232, 240, 0.4) 1px, transparent 1px),
+		linear-gradient(0deg, rgba(226, 232, 240, 0.4) 1px, transparent 1px);
+	background-size: 24px 24px;
+}
+
+.tape {
+	background: rgba(254, 240, 138, 0.6);
+	border: 1px dashed rgba(202, 138, 4, 0.3);
+	transform: rotate(-1deg);
+}
+
+.paper-card {
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+	transition: all 0.3s ease;
+}
+
+
+.paper-card:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
